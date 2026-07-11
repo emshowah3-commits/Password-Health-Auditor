@@ -3,9 +3,10 @@ import re
 special_characters = "!@#$%^&*"
 
 # Get users password and 
-password = input(len("What is you password"))
+password = input("What is you password")
 
 # Check for length (len)
+password_length = len(password)
 # len().password
 
 # check for uppercase letters
