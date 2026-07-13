@@ -44,6 +44,12 @@ elif has_upper == 15:
     print("decent""\n")
 else:
     print("password uppercase not so well""\n")
+
+# Password check for special characters
+print("Password special characters check""\n")
+
+if has_special_char >= 2 and password:
+    print("amount of special characters good")
 # Feedback on collected errors (if/ else statments)
 
 # run the program
